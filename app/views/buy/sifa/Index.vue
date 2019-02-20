@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>司法拍卖</h1>
+        <h1>更多</h1>
     </div>
 </template>
 

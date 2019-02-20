@@ -1,7 +1,7 @@
 <template>
     <div>
         <Layout :style="{padding: '10px 24px'}">  
-            <h1 style="font-size:120px;text-align:center;">我是停车场栏目</h1>
+            <h1 style="font-size:120px;text-align:center;">新闻栏目</h1>
         </Layout>
     </div>
 </template>

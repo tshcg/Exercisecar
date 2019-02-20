@@ -165,12 +165,8 @@
         },
         methods : {
             submit(){
-                var self = this;
-                //校验整个表单
                 this.$refs.myform.validate(data=>{
-                    //校验通过之后
-                    self.$store.commit("saleStore/changeStep1Form" , {"step1Form" : self.formdata});
-                    self.$store.commit("saleStore/changeStep" , {"step" : 2});
+                    console.log(data);
                 });
             }
         }

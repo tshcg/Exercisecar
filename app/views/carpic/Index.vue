@@ -16,7 +16,7 @@
             </div>
         </div>
 
-      
+        <CompareBtn></CompareBtn>
     </div>
 </template>
 
@@ -25,7 +25,8 @@
     import Choosealbum from "./Choosealbum";
     import Smallpicnav from "./Smallpicnav";
     import Carinfo from "./Carinfo";
-   
+    import CompareBtn from "../../components/CompareBtn";
+
     export default {
         //在组件创建之前，拉去信息
         beforeCreate() {
@@ -39,7 +40,7 @@
         },
         //注册组件
         components : {
-            Bigimg,Choosealbum,Smallpicnav,Carinfo 
+            Bigimg,Choosealbum,Smallpicnav,Carinfo,CompareBtn
         },
         mounted() {
              

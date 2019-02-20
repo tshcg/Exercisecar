@@ -1,23 +1,10 @@
 <template>
-    <div>
-        <router-view></router-view>
-
-        <RightBar v-if="isShowRightbar"></RightBar>
-    </div>
+    <router-view></router-view>
 </template>
 
 <script>
-    import RightBar from "./components/RightBar.vue";
-
     export default {
-        components : {
-            RightBar
-        },
-        computed : {
-            isShowRightbar(){
-                return this.$store.state.rightbarStore.isShowRightbar;
-            }
-        }
+        
     }
 </script>
 

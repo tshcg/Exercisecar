@@ -94,10 +94,6 @@
                     picW : this.picW,
                     picH : this.picH
                 });
-
-                alert("成功！");
-                //刷新浏览器
-                window.location.reload();
             },
             cancel () {
                

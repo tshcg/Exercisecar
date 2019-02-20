@@ -25,8 +25,8 @@
         methods : {
             //加入对比队列
             addToCompare(){
-                if(this.getCompareArr.length < 4){
-                    this.$store.commit("rightbarStore/addComparedArrCar" , {"carinfo" : this.row})
+                if(this.getCompareArr.length < 5){
+                    this.$store.commit("comparecarStore/addCar" , {"carinfo" : this.row})
                     this.$Message.info("加入对比成功");
                 }else{
                     this.$Message.error("最多对比5辆车");
@@ -34,7 +34,7 @@
             },
             delCompare(){
                 this.$Message.info("取消对比成功");
-                this.$store.commit("rightbarStore/delComparedArrCar" , {"id" : this.row.id})
+                this.$store.commit("comparecarStore/delCar" , {"id" : this.row.id})
             },
             //设置是否在对比
             setIn(){
@@ -52,7 +52,7 @@
             //从全局要对比队列
             getCompareArr(){
                 
-                return this.$store.state.rightbarStore.comparedArr;
+                return this.$store.state.comparecarStore.arr;
             }
         },
         watch : {

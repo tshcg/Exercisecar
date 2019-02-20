@@ -3,10 +3,10 @@
         <Layout :style="{padding: '20px 24px'}">  
             <Card>
                 <Steps :current="step - 1">
-                    <Step :title="showTitle(1)" content="这里是该步骤的描述信息"></Step>
-                    <Step :title="showTitle(2)" content="这里是该步骤的描述信息"></Step>
-                    <Step :title="showTitle(3)" content="这里是该步骤的描述信息"></Step>
-                    <Step :title="showTitle(4)" content="这里是该步骤的描述信息"></Step>
+                    <Step :title="showTitle(1)" content="请如实填写基本信息"></Step>
+                    <Step :title="showTitle(2)" content="车辆图片上传"></Step>
+                    <Step :title="showTitle(3)" content="文件上传"></Step>
+                    <Step :title="showTitle(4)" content="预览"></Step>
                 </Steps>
             </Card>
             <div style="height:20px;"></div>

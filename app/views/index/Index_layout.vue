@@ -13,11 +13,11 @@
                         </MenuItem>
                         <MenuItem name="buy">
                             <Icon type="md-nutrition" />
-                            买车
+                            轿车求购
                         </MenuItem>
                         <MenuItem name="sale">
                            <Icon type="md-pizza" />
-                            卖车
+                           轿车出售
                         </MenuItem>
                         <MenuItem name="user">
                             <Icon type="logo-tux" />
@@ -25,7 +25,7 @@
                         </MenuItem>
                         <MenuItem name="park">
                             <Icon type="ios-paper"></Icon>
-                            停车场
+                            新闻
                         </MenuItem>
                         <div class="meinfo">
                             <Poptip placement="bottom">

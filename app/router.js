@@ -8,7 +8,6 @@ import Buy_layout from "./views/buy";
 import Carlist from "./views/buy/carlist";
 import Sifa from "./views/buy/sifa";
 import Ai from "./views/buy/ai";
-import Compare from "./views/buy/compare";
 import Sale from "./views/sale";
 import User from "./views/user";
 import Park from "./views/park";
@@ -46,34 +45,18 @@ export default (store) => {
                             {
                                 path: "carlist",
                                 component: Carlist,
-                                name: "carlist",
-                                meta : {
-                                    showRightbar: true
-                                }
+                                name: "carlist"
                             },
                             {
                                 path: "sifa",
                                 component: Sifa,
                                 name: "sifa",
-                                meta: {
-                                    showRightbar: true
-                                }
+
                             },
                             {
                                 path: "ai",
                                 component: Ai,
-                                name: "ai",
-                                meta: {
-                                    showRightbar: true
-                                }
-                            },
-                            {
-                                path: "compare",
-                                component: Compare,
-                                name: "compare",
-                                meta: {
-                                    showRightbar: true
-                                }
+                                name: "ai"
                             }
                         ] 
                     },
@@ -100,10 +83,7 @@ export default (store) => {
             {
                 path: "/carpic/:id",
                 component: Carpic,
-                name: "carpic",
-                meta: {
-                    showRightbar: true
-                }
+                name: "carpic"
             },
             {
                 path: "/login",
@@ -151,9 +131,6 @@ export default (store) => {
                 "cn": to.fullPath.match(/\/index\/\w+\/(\w+)/)[1]
             });
         }
-        
-        //显示右边条
-        store.commit("rightbarStore/changeIsShowRightBar", { "isShowRightbar": to.meta.showRightbar ? true : false});
     });
     return router;
 }

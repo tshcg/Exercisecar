@@ -41,7 +41,6 @@ const store = new Vuex.Store(storeObj);
 Vue.filter("sishewuru" , sishewuru);
 Vue.filter("getyearfromtimestamp", getyearfromtimestamp);
 Vue.filter("qianfenfu", qianfenfu);
-
 //定义组件
 Vue.component("Tutu" , Tutu);
 Vue.component("ChangeAvatar", ChangeAvatar);

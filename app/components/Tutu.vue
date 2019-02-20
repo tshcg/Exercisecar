@@ -1,8 +1,7 @@
 <template>
     <div>
         <div v-if="isLoaded">
-
-            <div :style="{'width':w + 'px' , 'height' : h + 'px' , 'background' : `url(${picurl})` , 'background-size' : 'contain' , 'background-repeat' : 'no-repeat' , 'background-position' :'center center'}"></div>
+            <img :src="picurl" :style="{'width':w + 'px' , 'height' : h + 'px'}">
         </div>
         <div v-else class="loadingbox" :style="{'width':w + 'px' , 'height' : h + 'px' , 'position' : 'relative' , 'line-height' : h + 'px'}">
             <img :style="{'width':w / 2 + 'px'}" src="/images/loading.svg" >

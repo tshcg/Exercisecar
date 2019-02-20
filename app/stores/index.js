@@ -1,7 +1,7 @@
 import routerStore from "./routerStore";
 import carpicStore from "./carpicStore";
 import findcarStore from "./findcarStore";
-import rightbarStore from "./rightbarStore";
+import comparecarStore from "./comparecarStore";
 import saleStore from "./saleStore";
 import meStore from "./meStore";
 
@@ -13,8 +13,8 @@ export default {
         carpicStore,
         //车辆大表的store
         findcarStore,
-        //右侧条的store
-        rightbarStore,
+        //对比车辆的store
+        comparecarStore,
         //卖车的store
         saleStore,
         //登录人的store

@@ -1,7 +1,7 @@
 <template>
     <div class="login_wrap">
         <div class="inner">
-            <h1>二手车交易市场内部系统</h1>
+            <h1>豫北车辆交易平台</h1>
             <div style="height:40px;"></div>
             <Form ref="formInline" >
                 <FormItem prop="username">

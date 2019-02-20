@@ -1,6 +1,6 @@
 <template>
     <div>
-         <h1>我是AI荐车组件</h1>
+         <h1>推荐车辆</h1>
     </div>
 </template>
 
